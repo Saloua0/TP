@@ -13,8 +13,8 @@ function staticLoadPlaces() {
             name: 'Pokèmon',
             location: {
                 // decomment the following and add coordinates:
-                lat: 35.618681,
-                lng: -5.275370,
+                lat: 35.56313,
+                lng: -5.36032,
             },
         },
     ];
@@ -44,6 +44,12 @@ var models = [
         scale: '0.08 0.08 0.08',
         rotation: '0 180 0',
         info: 'dl',
+    },
+    {
+        url: './assets/mick/scene.gltf',
+        scale: '0.08 0.08 0.08',
+        rotation: '0 180 0',
+        info: 'mick',
     },
 ];
 
